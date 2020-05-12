@@ -7,14 +7,18 @@
     "connect-livereload": "^0.6.0",
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-express": "^1.4.1"
+    "grunt-express": "^1.4.1",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "grunt-parallel": "^0.5.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
