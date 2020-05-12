@@ -8,7 +8,7 @@
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-express": "^1.4.1",
-    "snyk": "^1.88.0"
+    "snyk": "^1.105.0"
   },
   "devDependencies": {
     "grunt-parallel": "^0.5.1"
